@@ -12,11 +12,7 @@ Uma aplicação web moderna que baixa áudio de vídeos do YouTube, transcreve u
 - ⚡ **Processamento rápido**: Otimizado para performance com suporte a GPU
 - 📄 **Export HTML**: Gera arquivos HTML prontos para visualização
 
-## 🚀 Demo
-
-![Demo do Resumidor](https://via.placeholder.com/800x400/1e90ff/ffffff?text=Resumidor+de+Videos)
-
-### Interface Principal
+## Interface Principal
 
 A aplicação possui uma interface limpa e intuitiva onde você pode:
 
