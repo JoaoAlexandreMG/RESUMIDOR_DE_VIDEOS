@@ -22,17 +22,11 @@ Este arquivo serve como um índice rápido de toda a documentação do projeto *
 
 - **[setup.sh](setup.sh)** - Script de setup para Linux/macOS
 - **[setup.bat](setup.bat)** - Script de setup para Windows
-- **[requirements-dev.txt](requirements-dev.txt)** - Dependências de desenvolvimento
 
 ### GitHub Templates e Workflows
 
 - **[.github/ISSUE_TEMPLATE/bug_report.md](.github/ISSUE_TEMPLATE/bug_report.md)** - Template para reportar bugs
 - **[.github/ISSUE_TEMPLATE/feature_request.md](.github/ISSUE_TEMPLATE/feature_request.md)** - Template para solicitar features
-- **[.github/workflows/ci-cd.yml](.github/workflows/ci-cd.yml)** - Pipeline CI/CD
-
-### Testes
-
-- **[tests/test_main.py](tests/test_main.py)** - Testes unitários e de integração
 
 ## 🚀 Como Usar Esta Documentação
 
@@ -46,14 +40,13 @@ Este arquivo serve como um índice rápido de toda a documentação do projeto *
 
 1. Leia **[CONTRIBUTING.md](CONTRIBUTING.md)** antes de contribuir
 2. Configure o ambiente com **setup.sh** ou **setup.bat**
-3. Execute os testes em **tests/**
-4. Consulte **[CHANGELOG.md](CHANGELOG.md)** para histórico
+3. Consulte **[CHANGELOG.md](CHANGELOG.md)** para histórico
 
 ### Para Deploy
 
-1. Use **[Dockerfile](Dockerfile)** para containerização
-2. Configure com **[docker-compose.yml](docker-compose.yml)**
-3. Copie **[.env.example](.env.example)** para **.env** e configure
+1. Siga as instruções no **[README.md](README.md)**
+2. Configure variáveis de ambiente com **[.env.example](.env.example)**
+3. Execute diretamente com `python main.py`
 
 ## 📊 Estatísticas do Projeto
 
@@ -63,46 +56,36 @@ Este arquivo serve como um índice rápido de toda a documentação do projeto *
 - **Frontend**: HTML/CSS/JavaScript
 - **Licença**: MIT
 - **Arquivos de código**: 2
-- **Arquivos de documentação**: 15+
-- **Arquivos de configuração**: 8+
+- **Arquivos de documentação**: 10
+- **Arquivos de configuração**: 5+
 
 ## 🔧 Ferramentas e Integrações
 
 ### Desenvolvimento
 
-- **Testing**: pytest, pytest-asyncio, pytest-cov
 - **Linting**: black, flake8, isort, mypy
 - **Security**: bandit
-- **CI/CD**: GitHub Actions
-
-### Deploy e Infraestrutura
-
-- **Containerização**: Docker, Docker Compose
-- **Web Server**: Uvicorn (ASGI)
-- **Reverse Proxy**: Nginx (opcional)
+- **Servidor**: Uvicorn (ASGI)
 
 ### Monitoramento
 
-- **Health Checks**: Integrados no Docker
 - **Logs**: Python logging
-- **Metrics**: Prontos para Prometheus
+- **Performance**: Métricas básicas
 
 ## 📈 Próximos Passos
 
 1. **Configurar repositório GitHub**:
    - Fazer upload de todos os arquivos
-   - Configurar secrets para CI/CD
-   - Configurar branch protection
+   - Configurar documentação
 
 2. **Deploy**:
    - Configurar servidor
    - Configurar domínio
-   - Configurar HTTPS
 
 3. **Melhorias**:
    - Implementar cache
-   - Adicionar mais testes
    - Melhorar interface
+   - Adicionar mais funcionalidades
 
 ## 🤝 Suporte
 
@@ -111,6 +94,33 @@ Para dúvidas sobre a documentação:
 1. Verifique os arquivos relevantes listados acima
 2. Consulte os exemplos nos templates
 3. Abra um issue no GitHub
+
+## ✅ Remoção Concluída
+
+Foram removidas **todas as referências ao Docker e testes** do projeto:
+
+### 🗑️ Arquivos Removidos
+
+- Dockerfile
+- docker-compose.yml  
+- requirements-dev.txt
+- tests/ (diretório completo)
+- .github/workflows/ (CI/CD)
+
+### 📝 Documentação Atualizada
+
+- README.md - removido Docker do roadmap
+- DOCS_SUMMARY.md - removidas seções de testes e Docker
+- CONTRIBUTING.md - removida seção de testes completa
+- pyproject.toml - removidas configurações pytest/coverage
+
+### 📊 Estatísticas Finais
+
+- **Arquivos de código**: 2
+- **Arquivos de documentação**: 10
+- **Arquivos de configuração**: 5
+
+O projeto agora está **simplificado** e focado apenas na funcionalidade principal! 🎯
 
 ---
 

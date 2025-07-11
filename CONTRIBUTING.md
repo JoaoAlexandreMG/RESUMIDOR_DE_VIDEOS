@@ -29,16 +29,20 @@ Obrigado pelo seu interesse em contribuir com o Resumidor de Vídeos do YouTube!
 
 1. **Fork o repositório**
 2. **Crie uma branch** para sua feature:
+
    ```bash
    git checkout -b feature/nome-da-feature
    ```
+
 3. **Faça suas alterações** seguindo as convenções do projeto
-4. **Teste suas alterações** completamente
+4. **Verifique suas mudanças** completamente
 5. **Commit suas mudanças** com mensagens descritivas
 6. **Push para sua branch**:
+
    ```bash
    git push origin feature/nome-da-feature
    ```
+
 7. **Abra um Pull Request**
 
 ## 📝 Convenções de Código
@@ -54,7 +58,7 @@ Obrigado pelo seu interesse em contribuir com o Resumidor de Vídeos do YouTube!
 
 Use o padrão de [Conventional Commits](https://www.conventionalcommits.org/):
 
-```
+```text
 tipo(escopo): descrição
 
 [corpo opcional]
@@ -63,57 +67,31 @@ tipo(escopo): descrição
 ```
 
 **Tipos:**
+
 - `feat`: nova funcionalidade
 - `fix`: correção de bug
 - `docs`: documentação
 - `style`: formatação/estilo
 - `refactor`: refatoração de código
-- `test`: testes
 - `chore`: tarefas de manutenção
 
 **Exemplos:**
+
 ```bash
 feat(whisper): adicionar suporte ao modelo large
 fix(api): corrigir erro de timeout em vídeos longos
 docs(readme): atualizar instruções de instalação
 ```
 
-## 🧪 Testes
-
-### Executar Testes
-
-```bash
-# Instalar dependências de teste
-pip install pytest pytest-asyncio
-
-# Executar todos os testes
-pytest
-
-# Executar com cobertura
-pytest --cov=main
-```
-
-### Escrever Testes
-
-- **Teste todas as funções públicas**
-- **Use fixtures para dados de teste**
-- **Teste casos de erro**
-- **Mantenha testes independentes**
-
 ## 📁 Estrutura do Projeto
 
 ```text
 resumidor-videos-youtube/
 ├── main.py              # Aplicação principal
-├── tests/              # Testes unitários
-│   ├── test_main.py
-│   └── test_utils.py
 ├── docs/               # Documentação adicional
 ├── requirements.txt    # Dependências
-├── requirements-dev.txt # Dependências de desenvolvimento
-└── .github/           # Templates e workflows
-    ├── ISSUE_TEMPLATE/
-    └── workflows/
+└── .github/           # Templates
+    └── ISSUE_TEMPLATE/
 ```
 
 ## 🚀 Ambiente de Desenvolvimento
@@ -121,12 +99,14 @@ resumidor-videos-youtube/
 ### Configuração Inicial
 
 1. **Clone e acesse o diretório**:
+
    ```bash
    git clone https://github.com/seu-usuario/resumidor-videos-youtube.git
    cd resumidor-videos-youtube
    ```
 
 2. **Crie um ambiente virtual**:
+
    ```bash
    python -m venv venv
    source venv/bin/activate  # Linux/Mac
@@ -134,12 +114,14 @@ resumidor-videos-youtube/
    ```
 
 3. **Instale dependências**:
+
    ```bash
    pip install -r requirements.txt
    pip install -r requirements-dev.txt
    ```
 
 4. **Configure variáveis de ambiente**:
+
    ```bash
    cp .env.example .env
    # Edite .env com suas configurações
@@ -150,23 +132,23 @@ resumidor-videos-youtube/
 - **IDE**: VS Code com extensões Python
 - **Linting**: flake8, black
 - **Type checking**: mypy
-- **Testes**: pytest
 
 ## 🎯 Áreas que Precisam de Contribuição
 
 ### Prioridade Alta
+
 - [ ] Melhorar tratamento de erros
-- [ ] Adicionar testes unitários
 - [ ] Otimizar performance
 - [ ] Documentar API
 
 ### Prioridade Média
+
 - [ ] Suporte a múltiplos idiomas
 - [ ] Interface de administração
 - [ ] Cache de resultados
-- [ ] Docker container
 
 ### Prioridade Baixa
+
 - [ ] Temas personalizáveis
 - [ ] Estatísticas de uso
 - [ ] Integração com serviços externos
@@ -179,7 +161,6 @@ resumidor-videos-youtube/
 2. **Revisar código** quanto a qualidade e padrões
 3. **Testar funcionalidade** localmente
 4. **Verificar documentação** adequada
-5. **Confirmar testes** passando
 
 ### Para Contribuidores
 
@@ -194,7 +175,7 @@ resumidor-videos-youtube/
 
 - **Issues**: Para bugs e features
 - **Discussions**: Para perguntas gerais
-- **Email**: contato@projeto.com (para questões sensíveis)
+- **Email**: [contato@projeto.com](mailto:contato@projeto.com) (para questões sensíveis)
 
 ### Expectativas
 

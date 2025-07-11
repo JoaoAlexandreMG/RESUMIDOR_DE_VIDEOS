@@ -143,7 +143,7 @@ Processa um vídeo do YouTube e retorna resumo em HTML.
 
 Contribuições são bem-vindas! Veja o [CONTRIBUTING.md](CONTRIBUTING.md) para detalhes.
 
-### Como contribuir:
+### Como contribuir
 
 1. Fork o projeto
 2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
@@ -182,7 +182,6 @@ Se encontrar problemas:
 - [ ] Cache de transcrições
 - [ ] Interface para upload de arquivos locais
 - [ ] API REST completa
-- [ ] Docker container
 - [ ] Suporte a playlists
 - [ ] Integração com outras plataformas de vídeo
 

@@ -8,6 +8,7 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 ## [1.0.0] - 2025-07-11
 
 ### Adicionado
+
 - ✨ Funcionalidade principal de análise de vídeos do YouTube
 - 🎙️ Transcrição automática usando OpenAI Whisper
 - 🤖 Geração de resumos inteligentes com Google Gemini 2.0 Flash
@@ -22,6 +23,7 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - 🎛️ Opções personalizáveis para modelos Whisper
 
 ### Funcionalidades Técnicas
+
 - Integração com yt-dlp para download de áudio
 - Suporte a múltiplos formatos de áudio
 - Processamento assíncrono com FastAPI
@@ -30,6 +32,7 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Tratamento de erros robusto
 
 ### Dependências
+
 - FastAPI para o servidor web
 - OpenAI Whisper para transcrição
 - Google Generative AI para resumos
@@ -39,6 +42,7 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - uvicorn como servidor ASGI
 
 ### Recursos de Interface
+
 - Design moderno com gradientes e sombras
 - Animações CSS suaves
 - Ícones visuais atraentes
@@ -47,6 +51,7 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 - Mensagens de erro informativas
 
 ### Próximas Versões Planejadas
+
 - [ ] v1.1.0: Suporte a múltiplos idiomas
 - [ ] v1.2.0: Cache de transcrições
 - [ ] v1.3.0: Upload de arquivos locais
