@@ -1,0 +1,35 @@
+# Dependências de desenvolvimento
+
+# Ferramentas de teste
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+httpx>=0.24.0  # Para testes da API FastAPI
+
+# Linting e formatação
+black>=23.0.0
+flake8>=6.0.0
+isort>=5.12.0
+
+# Type checking
+mypy>=1.0.0
+types-requests>=2.28.0
+
+# Análise de código
+bandit>=1.7.0  # Verificação de segurança
+pylint>=2.15.0
+
+# Documentação
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.2.0
+
+# Profiling e performance
+memory-profiler>=0.60.0
+py-spy>=0.3.0
+
+# Ferramentas de desenvolvimento
+pre-commit>=3.0.0
+commitizen>=2.40.0
+
+# Debug
+debugpy>=1.6.0
