@@ -101,7 +101,7 @@ resumidor-videos-youtube/
 1. **Clone e acesse o diretório**:
 
    ```bash
-   git clone https://github.com/seu-usuario/resumidor-videos-youtube.git
+   git clone https://github.com/JoaoAlexandreMG/resumidor-videos-youtube.git
    cd resumidor-videos-youtube
    ```
 
@@ -175,7 +175,7 @@ resumidor-videos-youtube/
 
 - **Issues**: Para bugs e features
 - **Discussions**: Para perguntas gerais
-- **Email**: [contato@projeto.com](mailto:contato@projeto.com) (para questões sensíveis)
+- **Email**: [j.sa@ufu.br](mailto:j,sa@ufu.br) (para questões sensíveis)
 
 ### Expectativas
 
